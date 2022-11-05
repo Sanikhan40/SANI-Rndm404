@@ -176,13 +176,12 @@ logo =                                          ("""
 
                                        
 
-
-
-
-
-
-
-                               
+╔═══╦═══╦═╗─╔╦══╗
+║╔═╗║╔═╗║║╚╗║╠╣╠╝
+║╚══╣║─║║╔╗╚╝║║║
+╚══╗║╚═╝║║╚╗║║║║
+║╚═╝║╔═╗║║─║║╠╣╠╗
+╚═══╩╝─╚╩╝─╚═╩══╝
                                                                                                                                         
                                                                             
 \033[1;37m================= \33[32;45mSANI\33[0;m =====================
@@ -191,7 +190,7 @@ logo =                                          ("""
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35mSanikhan40
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35mOnLy Me
-\033[1;32m     \033[1;36mTOOL VIRSION :1..01 \033[1;36m2.4
+\033[1;32m     \033[1;36mTOOL VIRSION : \033[1;36m1.1
 \033[1;37m================= \33[32;45mSANI\33[0;m =====================
  
        \33[37;41m\t WELLCOME TO RANDOM TOOLS\33[0;m
@@ -282,7 +281,7 @@ def i():
     for bilal in range(passx):
         pww = input("[*] Enter Password : ")
         HamiiID.append(pww)
-    with ThreadPool(max_workers=50) as manshera:
+    with ThreadPool(max_workers=10) as manshera:
         clear()
         tl = str(len(user))
         print('\033[1;36m TOTAL IDS: '+tl)
